@@ -1,0 +1,161 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "darwin",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.405"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "project",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "gitpod": true,
+        "title": {
+            "en": "Voice Command API - Talk to Your Task List",
+            "es": "Voice Command API - Habla con tu Lista de Tareas"
+        },
+        "status": "published",
+        "template_url": "https://github.com/4GeeksAcademy/voice-command-api",
+        "slug": "voice-command-api",
+        "description": {
+            "en": "Build a FastAPI backend for a voice-first to-do app: implement in-memory CRUD task endpoints, a POST /instruction endpoint that returns strict routing JSON from plain text, and a POST /transcribe endpoint that converts audio to text and reuses instruction routing logic.",
+            "es": "Construye un backend en FastAPI para una app de tareas controlada por voz: implementa endpoints CRUD en memoria, un endpoint POST /instruction que devuelva JSON de enrutamiento estricto desde texto plano, y un endpoint POST /transcribe que convierta audio a texto y reutilice la logica de routing."
+        },
+        "difficulty": "beginner",
+        "duration": 2,
+        "technologies": [
+            "python",
+            "fastapi",
+            "rest-api",
+            "prompt-engineering",
+            "llm",
+            "speech-to-text"
+        ],
+        "translations": [
+            "es",
+            "en"
+        ],
+        "solution": "https://github.com/4GeeksAcademy/voice-command-api",
+        "preview": "https://raw.githubusercontent.com/4GeeksAcademy/voice-command-api/main/.learn/preview.svg",
+        "preview_url": "https://raw.githubusercontent.com/4GeeksAcademy/voice-command-api/main/.learn/preview.svg",
+        "sharing": [
+            {
+                "en": "I just completed Voice Command API - Talk to Your Task List with LearnPack @4GeeksAcademy. Built POST /transcribe + POST /instruction routing and in-memory task CRUD with FastAPI. Check it out: https://github.com/4GeeksAcademy/voice-command-api #AIEngineering #LearnPack #4GeeksAcademy #python #fastapi #restapi",
+                "es": "Acabo de completar Voice Command API - Habla con tu Lista de Tareas con LearnPack @4GeeksAcademy. Construí POST /transcribe + routing con POST /instruction y CRUD en memoria con FastAPI. Mira el proyecto: https://github.com/4GeeksAcademy/voice-command-api #AIEngineering #LearnPack #4GeeksAcademy #python #fastapi #restapi"
+            },
+            {
+                "en": "Built and shipped: Voice Command API. Learning by building with @4GeeksAcademy - speech-to-text to routing JSON and task actions in FastAPI. https://github.com/4GeeksAcademy/voice-command-api #AIEngineering #LearnPack #4GeeksAcademy #python #fastapi #llm",
+                "es": "Construido y publicado: Voice Command API. Aprendiendo con proyectos reales en @4GeeksAcademy - de speech-to-text a JSON de routing y acciones de tareas con FastAPI. https://github.com/4GeeksAcademy/voice-command-api #AIEngineering #LearnPack #4GeeksAcademy #python #fastapi #llm"
+            }
+        ]
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "frontend",
+            "slug": "frontend",
+            "translations": {},
+            "language": "html",
+            "entry": "frontend/index.html",
+            "title": "frontend",
+            "graded": false,
+            "files": [
+                {
+                    "path": "frontend/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "frontend/.env.example",
+                    "name": ".env.example",
+                    "hidden": true
+                },
+                {
+                    "path": "frontend/package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "frontend/package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "frontend/public",
+                    "name": "public",
+                    "hidden": true
+                },
+                {
+                    "path": "frontend/src",
+                    "name": "src",
+                    "hidden": true
+                },
+                {
+                    "path": "frontend/tsconfig.json",
+                    "name": "tsconfig.json",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "src",
+            "slug": "src",
+            "translations": {},
+            "language": "python3",
+            "entry": null,
+            "title": "src",
+            "graded": false,
+            "files": [
+                {
+                    "path": "src/__init__.py",
+                    "name": "__init__.py",
+                    "hidden": true
+                },
+                {
+                    "path": "src/app",
+                    "name": "app",
+                    "hidden": true
+                },
+                {
+                    "path": "src/main.py",
+                    "name": "main.py",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 6442981834145903000
+}
